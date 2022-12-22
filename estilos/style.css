@@ -26,13 +26,18 @@ section#login {
     transform: translate(-50%, -50%);
     overflow: hidden;
     background-color: white;
-    width: 200px;
-    height: 300px;
+    width: 250px;
+    height: 500px;
     border-radius: 20px;
 }
 section#login > div#imagem {
+    display: block;
     background: purple url(../imagens/moto.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     height: 200px;
+}
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
 }
